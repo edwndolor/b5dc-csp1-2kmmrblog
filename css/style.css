@@ -1,0 +1,202 @@
+html {
+    height: 100%;
+    background-image: url("../img/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    padding: 1em;
+}
+
+body p, h5, em{
+  color: white;
+}
+
+label
+{
+margin-top: 10px;
+font-size: 14px;
+}
+
+.form-group
+{
+  margin-bottom: 15px;
+}
+
+body h2,h3
+{
+	color: #9f4746;
+  font-weight: bolder;
+}
+body h4{
+  color: white;
+}
+
+.jumbotron
+{
+padding-top: 15px;
+padding-bottom: 50px;
+margin-bottom: 50px;
+background-color: rgba(40,40,40,.97);
+}
+
+.jumbotron  h1,h2,a{
+  color: #9f4746;
+  font-weight: bolder;
+}
+
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 60px; overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+	min-height: 80px;
+	padding: 20px;
+  background-color: rgba(40,40,40,.8);
+
+}
+
+.icon-bar {
+  color: black;
+  border-color: black;
+  background-color: white
+}
+
+.nav
+{
+  margin-bottom: 30px;
+}
+
+.main{
+  margin-bottom: 40px;
+}
+
+.glyphicon.glyphicon-home{
+  font-size: 19px;
+}
+
+#figure
+{
+  margin-top:45px;
+  bottom-margin: 20px;
+}
+
+
+#back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #9f4746; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#back-to-top:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+header .jumbotron h1{
+  color: #e18b5a;
+/*  font-size: 80px;*/
+  font-weight: bold;
+}
+
+.well
+{
+  background-color: #282828;
+    border:none;
+}
+
+.well label{
+  color: #9f4746;
+}
+.panel
+{
+  background-color: rgba(40,40,40,.4);
+}
+
+.modal .modal-body{
+background-color: rgba(159, 71, 70, .5);
+}
+
+.pagination>li>a
+{
+  background-color: #282828;
+  color: #9f4746;
+}
+
+.pager>li>a
+{
+  background-color: #282828;
+  color: #9f4746;
+}
+
+
+blockquote cite{
+  color: #e18b5a;
+}
+
+#popularpost .well{
+  background-color: rgba(159, 71, 70, .8);
+  padding: 5px;
+  margin-bottom: 10px;
+
+}
+
+#popularpost a{
+  text-decoration-line: none;
+}
+
+#pop-post:hover{
+  background-color: #555;
+}
+
+kbd{
+  padding: 5px 8px;
+  font-size: 110%;
+  color: #fff;
+  background-color: #9f4746;
+  border-radius: 3px;
+}
+
+.figure
+{
+  margin-bottom: 20px;
+}
+
+#comments{
+  padding: 5px;
+}
+
+#labelConfirmpass{
+padding-right: 2px;
+}
+
+.lead
+{
+  font-size: 19px;
+}

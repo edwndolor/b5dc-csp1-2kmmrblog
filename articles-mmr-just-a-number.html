@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<title>2kmmrblog-articles</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="./img/title-icon.ico" type="image/png">
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+
+	<header class="container-fluid text-center"> <!-- header start -->
+		<div class="jumbotron">
+
+			<nav class="navbar navbar"> <!-- navi start -->
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#2kNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">2Kmmrblog</a>	
+					</div> 
+
+					<div class="container-fluid">
+						<div class="collapse navbar-collapse" id="2kNavbar">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+								<li><a href="articles.html">Articles</a></li>
+								<li><a href="videos.html">Videos</a></li>
+								<li><a href="about.html">About</a></li>
+								<li data-toggle="modal" data-target="#sign-upModal"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+								<li data-toggle="modal" data-target="#log-inModal"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</nav> <!-- navi end-->
+
+			<h1>2Kmmrblog</h1>
+			<h3>A just for fun blog for cancer dota players</h3>
+
+		</div>
+	</header> <!-- header end -->
+
+	<div id="sign-upModal" class="modal fade" role="dialog"> <!-- sign-upModal start -->
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button"class="close" data-dismiss="modal">&times;</button>
+						<h2 class="modal-title">Sign Up</h2>
+					</div> <!-- ./modal-header -->
+
+					<div class="modal-body">
+
+       					<form action="" class="form-horizontal">
+
+       						<div class="form-group">
+       							<label for="username" class="col-sm-3">Username</label>
+       							<div class="col-sm-9">
+       								<input type="text" class="form-control" id="username" placeholder="Enter user name" name=username>
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+       							<label for="email" class="col-sm-3">Email</label>
+       							<div class="col-sm-9">
+       								<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+	   							<label for="pwd" class="col-sm-3">Password</label>
+	   							<div class="col-sm-9">
+	   								<input type="password" class="form-control" id="password" placeholder="Enter password"name="password">
+   								</div>
+   							</div>
+
+	   						<div class="form-group">
+       							<label for="pwd" class="col-sm-3" id="labelConfirmpass">Confirm password</label>
+       							<div class="col-sm-9">
+       								<input type="password" class="form-control" id="confirm-password" placeholder="Confirm password" name="confirm-password">
+       							</div>
+       						</div>
+
+       						<div class="form-group"> 
+    							<div class="col-sm-offset-9 col-sm-3">
+      								<button type="submit" class="btn btn-info">Sign-up</button>
+   								 </div>
+ 							</div>
+       						
+       					</form>
+      				</div>
+				</div>	
+			</div>
+	</div> <!-- ./modal-sign-up end-->
+
+	<div id="log-inModal" class="modal fade" role="dialog"> <!-- ./log-inModal start-->
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button"class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title">Log-in</h2>
+				</div> <!-- ./modal-header -->
+
+				<div class="modal-body">
+
+   					<form action="" class="form-horizontal">
+
+   						<div class="form-group">
+   							<label for="username" class="col-sm-3">Username</label>
+   							<div class="col-sm-9">
+   								<input type="text" class="form-control" id="username" placeholder="Enter user name" name=username>
+   							</div>
+   						</div>
+
+   						<div class="form-group">
+   							<label for="pwd" class="col-sm-3">Password</label>
+   							<div class="col-sm-9">
+   								<input type="password" class="form-control" id="password" placeholder="Enter password"name="password">
+   							</div>
+   						</div>
+
+   						<div class="form-group"> 
+							<div class="col-sm-offset-9 col-sm-3">
+  								<button type="submit" class="btn btn-success">Log-in</button>
+								 </div>
+						</div>
+						<hr>
+						<div class="form-group text-center">
+							<h3>Not a member yet?</h3>
+							<div class="col-sm-offset-4 col-sm-4">
+  								<button type="submit" data-dismiss="modal" data-toggle="modal" data-target="#sign-upModal" class="btn btn-info">Sign-up</button>
+							</div>
+						</div>   						
+   					</form>
+  				</div>
+			</div>	
+		</div>
+	</div> <!-- ./log-inModal end-->
+
+
+	<main class="container-fluid text-justify">
+
+		<div class="col-sm-12 col-md-8"> <!-- article -->
+
+			<div class="well" id="mmrisjustanumber">
+				
+				<h3>2k logic: MMR is just a number</h3>
+				<p class=small><span class="fa fa-user"></span> Peenoise101 <span class="fa fa-clock-o"></span> Sept 5, 2017</p>
+								
+				<figure class="figure">
+					<img src="./img/dendu.jpeg" title="Dendi the legendary midlaner"class="figure-img img-fluid img-rounded" alt="MMR is just a number" width="100%" height="100%">
+				</figure>
+
+				<p class="lead">
+					MMR is just a number - Dendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quidem cum officia sit nihil possimus, temporibus animi enim maiores neque sapiente eligendi et vel esse.
+				</p>
+
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Nullam a efficitur odio, ac maximus lorem. Nullam aliquam fermentum lectus ut sagittis. Sed pulvinar sed ligula gravida condimentum. Proin eleifend vestibulum tortor, ut pellentesque lorem tempor a. Nunc pharetra lacus at laoreet suscipit. Aliquam tempor mattis sagittis. Mauris viverra mi quis risus molestie placerat. Sed accumsan vestibulum fringilla. Etiam dapibus tellus ac eros placerat, at aliquam arcu lobortis. Vestibulum sollicitudin mauris dui, a tempor metus lacinia sed. Nam a auctor purus, nec rutrum ipsum. Maecenas lacus ex, finibus non tempor at, ultrices id sem. Suspendisse et magna et tellus facilisis lacinia at et diam. Fusce finibus ullamcorper ligula non tristique. Nulla facilisi. Donec ultricies nisi vel quam venenatis efficitur. Praesent porta risus arcu, at egestas ante accumsan eu. Phasellus et lacus quis lacus imperdiet fermentum eu a enim. Praesent non lorem rhoncus, cursus leo nec, pellentesque dui.</p>	
+
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Nullam a efficitur odio, ac maximus lorem. Nullam aliquam fermentum lectus ut sagittis. Sed pulvinar sed ligula gravida condimentum. Proin eleifend vestibulum tortor, ut pellentesque lorem tempor a. Nunc pharetra lacus at laoreet suscipit. Aliquam tempor mattis sagittis. Mauris viverra mi quis risus molestie placerat. Sed accumsan vestibulum fringilla. Etiam dapibus tellus ac eros placerat, at aliquam arcu lobortis. Vestibulum sollicitudin mauris dui, a tempor metus lacinia sed. Nam a auctor purus, nec rutrum ipsum. Maecenas lacus ex, finibus non tempor at, ultrices id sem. Suspendisse et magna et tellus facilisis lacinia at et diam. Fusce finibus ullamcorper ligula non tristique. Nulla facilisi. Donec ultricies nisi vel quam venenatis efficitur. Praesent porta risus arcu, at egestas ante accumsan eu. Phasellus et lacus quis lacus imperdiet fermentum eu a enim. Praesent non lorem rhoncus, cursus leo nec, pellentesque dui.</p>	
+
+			</div>
+
+			<div class="well"><!-- comment section start -->
+				<h3>Comments</h3> 
+				<hr>
+				<div class="well">
+					<div class="row">
+						<div class="col-sm-6 col-md-2 text-center" id="comments">						
+								<img src="./img/mushit.jpg" class="figure-img img-fluid img-rounded" alt="Mushit" width="70%" height="50%">
+						</div>
+
+						<div class="col-sm-6 col-md-10" id="comments">
+
+							<h4><a href="#">Malayshit101</a></h4>
+							<h5>Idc. Me mid. Lorem ipsum dolor sit amet</h5>
+							<p class="small"> <span class="fa fa-clock-o"></span> Sept 5, 2017, 5:03 PM</p>
+												
+							<p><button class="btn btn-xs btn-info">Reply <span class="fa fa-comment"></span></button></p>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			<div class="well">
+				<h3>Leave a Comment</h3>
+				<em>You must be registered before you can comment</em>	
+
+				<form action="">
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<div class="form-group">
+								<label>Username/Email:</label>
+								<input type="text" class="form-control" placeholder="Please enter your email/username">
+							</div>
+
+							<div class="form-group">
+								<label>Password</label>
+								<input type="password" class="form-control" placeholder="Enter your password">
+								
+							</div>
+						</div>
+					</div>		
+							
+					<div class="form-group">
+						<label>Comment:</label>
+						<textarea class="form-control"></textarea>
+					</div>
+
+					<button type="Comment" class="btn btn-primary">Comment</button>
+				</form>
+			</div>
+		
+			<div class="text-center">
+				<ul class="pager">
+					<li class="pager-previous"><a href="">Previous article</a></li>
+					<li class="pager-next"><a href="">Next article</a></li>
+				</ul>			
+			</div>
+
+		</div>	
+
+		<div class="col-sm-12 col-md-4">
+			
+			<form class="well"> <!-- search bar -->
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search">
+					<div class="input-group-btn">
+						<button class="btn btn-submit" type="submit">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+				</div>
+			</form>
+
+			<div class="well text-center" id="popularpost"> <!--  related post -->
+				<h3>Related Post</h3>
+				<hr>
+				<a href=""><div class="well" id="pop-post"><h4>From 2k to 3k realquick</h4></div></a>
+				<a href="#isthereacure"><div class="well" id="pop-post"><h4>Is there a cure?</h4></div></a>
+				<a href=""><div class="well" id="pop-post"><h4>Peenoise, Malayshit or Indogs?</h4></div></a>
+				<a href=""><div class="well" id="pop-post"><h4>Signs of cancer player</h4></div></a>
+			</div>
+
+
+			<div class="well text-center"> <!-- tags start -->
+				<h3>Tags</h3>
+				<hr>
+				<p>
+					<kbd>KS</kbd>
+					<kbd>Throw</kbd> 
+					<kbd>Feed </kbd>
+				</p>
+				<p>
+					<kbd>Cancer</kbd>
+					<kbd>Kuku</kbd>
+					<kbd>Peenoise</kbd>
+				</p>
+				<p>
+					<kbd>Dendi</kbd>
+					<kbd>Mid</kbd>
+					<kbd>Support</kbd>
+					<kbd>SEA</kbd>
+					<kbd>Miracle-</kbd>
+				</p>
+			</div>
+
+		</div>
+
+	</main>
+
+
+<footer class="container-fluid text-center">
+	<h4>Copyright &copy; 2017 | Edwn Dolor</h4>
+	<div>
+		<ul class="list-inline">
+				<li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitch fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+			</ul>
+	</div>
+</footer>
+
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left" data-original-title="Click to return on the top page" style=" display: inline;"><span class="fa fa-chevron-up"></span></a>
+
+<!-- back-to-top script -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top").style.display = "block";
+    } else {
+        document.getElementById("back-to-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

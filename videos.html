@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<title>2kmmrblog-videos</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="./img/title-icon.ico" type="image/png">
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+
+	<header class="container-fluid text-center">
+		<div class="jumbotron">
+
+			<nav class="navbar">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#2kNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">2Kmmrblog</a>	
+					</div> 
+
+					<div class="container-fluid">
+						<div class="collapse navbar-collapse" id="2kNavbar">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+								<li><a href="articles.html">Articles</a></li>
+								<li><a href="videos.html">Videos</a></li>
+								<li><a href="about.html">About</a></li>
+								<li data-toggle="modal" data-target="#sign-upModal"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+								<li data-toggle="modal" data-target="#log-inModal"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</nav>
+
+			<h1>2Kmmrblog</h1>
+			<h3>A just for fun blog for cancer dota players</h3>
+
+		</div>
+	</header>
+
+	<div id="sign-upModal" class="modal fade" role="dialog"> <!-- ./sign-upModal start -->
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button"class="close" data-dismiss="modal">&times;</button>
+						<h2 class="modal-title">Sign Up</h2>
+					</div> <!-- ./modal-header -->
+
+					<div class="modal-body">
+
+       					<form action="" class="form-horizontal">
+
+       						<div class="form-group">
+       							<label for="username" class="col-sm-3">Username</label>
+       							<div class="col-sm-9">
+       								<input type="text" class="form-control" id="username" placeholder="Enter user name" name=username>
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+       							<label for="email" class="col-sm-3">Email</label>
+       							<div class="col-sm-9">
+       								<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+       							<label for="pwd" class="col-sm-3">Password</label>
+       							<div class="col-sm-9">
+       								<input type="password" class="form-control" id="password" placeholder="Enter password"name="password">
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+       							<label for="pwd" class="col-sm-3" id="labelConfirmpass">Confirm password</label>
+       							<div class="col-sm-9">
+       								<input type="password" class="form-control" id="confirm-password" placeholder="Confirm password" name="confirm-password">
+       							</div>
+       						</div>
+
+       						<div class="form-group"> 
+    							<div class="col-sm-offset-9 col-sm-3">
+      								<button type="submit" class="btn btn-info">Sign-up</button>
+   								 </div>
+ 							</div>
+       						
+       					</form>
+      				</div>
+				</div>	
+			</div>
+	</div> <!-- ./modal-sign-up end-->
+
+	<div id="log-inModal" class="modal fade" role="dialog"> <!-- ./log-inModal start-->
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button"class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title">Log-in</h2>
+				</div> <!-- ./modal-header -->
+
+				<div class="modal-body">
+
+   					<form action="" class="form-horizontal">
+
+   						<div class="form-group">
+   							<label for="username" class="col-sm-3">Username</label>
+   							<div class="col-sm-9">
+   								<input type="text" class="form-control" id="username" placeholder="Enter user name" name=username>
+   							</div>
+   						</div>
+
+   						<div class="form-group">
+   							<label for="pwd" class="col-sm-3">Password</label>
+   							<div class="col-sm-9">
+   								<input type="password" class="form-control" id="password" placeholder="Enter password"name="password">
+   							</div>
+   						</div>
+
+   						<div class="form-group"> 
+							<div class="col-sm-offset-9 col-sm-3">
+  								<button type="submit" class="btn btn-success">Log-in</button>
+								 </div>
+						</div>
+						<hr>
+						<div class="form-group text-center">
+							<h3>Not a member yet?</h3>
+							<div class="col-sm-offset-4 col-sm-4">
+  								<button type="submit" data-dismiss="modal" data-toggle="modal" data-target="#sign-upModal" class="btn btn-info">Sign-up</button>
+							</div>
+						</div>   						
+   					</form>
+  				</div>
+			</div>	
+		</div>
+	</div> <!-- log-inModal end-->
+
+	<main class="container">
+
+		
+		<div class="well text-center">
+				<h2>Watch videos of our fellow cancer players invading every Dota2 servers in the world</h2>
+				<em class="small">Videos courtesy of Youtube</em>
+		</div>
+		
+		<div class="row"> <!-- 1st row video -->
+			<div class="col-sm-12 col-md-6">
+				<div class="panel panel-info">
+					<div class="panel-heading text-center">	
+						<h3>Mid or Feed?</h3>
+					</div>
+					<div class="panel-body">
+						<div class="responsive-video">
+							<iframe width="650" height="390"src="https://www.youtube.com//embed/WCIROiQvPAI" frameborder="0" allowfullscreen>
+							</iframe>
+						</div>	
+					</div>
+				</div>	
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<div class="panel panel-info">
+					<div class="panel-heading text-center">
+						<h3>Pick Support, Play Carry</h3>
+					</div>
+					<div class="panel-body">
+						<div class="responsive-video">
+							<iframe width="450" height="390"src="https://www.youtube.com//embed/QSZF3k0czKI	" frameborder="0" allowfullscreen>	</iframe>
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</div>
+
+		<div class="row"> <!-- 2nd row video -->
+
+			<div class="col-sm-12 col-md-6">	
+
+				<div class="panel panel-info">
+					<div class="panel-heading text-center">
+						<h3>Cancer Player in Action</h3>
+					</div>
+					<div class="panel-body">
+						<div class="responsive-video">
+							<iframe width="450" height="390"src="https://www.youtube.com//embed/UOo2Iu2_YBo" frameborder="0" allowfullscreen>
+							</iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-6">	
+				<div class="panel panel-info">
+
+					<div class="panel-heading text-center">
+						<h3>No Escape: Pro-players are cancer too</h3>
+					</div>
+
+					<div class="panel-body">
+						<div class="responsive-video">
+							<iframe width="450" height="390"src="https://www.youtube.com//embed/8_J8_mOLR6Q" frameborder="0" allowfullscreen>
+							</iframe>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center">
+			<ul class="pagination">
+				<li class="active"><a href="">1</a></li>
+				<li><a href="">2</a></li>
+				<li><a href="">3</a></li>
+				<li><a href="">4</a></li>
+				<li><a href="">5</a></li>
+			</ul>
+		</div>
+	
+	</main>
+
+	<footer class="container-fluid text-center">
+		<h4>Copyright &copy; 2017 | Edwn Dolor</h4>
+		<div>
+			<ul class="list-inline">
+				<li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitch fa-2x"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+
+<div class="container-fluid">
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left" data-original-title="Click to return on the top page" style=" display: inline;"><span class="fa fa-chevron-up"></span></a>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top").style.display = "block";
+    } else {
+        document.getElementById("back-to-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script> <!-- back-to-top script -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

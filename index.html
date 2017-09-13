@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<title>2kmmrblog</title>
+	
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="./img/title-icon.ico" type="image/png">
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
+</head>
+
+<body>
+
+	<header class="container-fluid text-center">
+
+		<div class="jumbotron">
+
+			<nav class="navbar"> <!-- navi start -->
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#2kNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">2Kmmrblog</a>	
+					</div>  
+					<div class="container-fluid">
+						<div class="collapse navbar-collapse" id="2kNavbar">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+								<li><a href="articles.html">Articles</a></li>
+								<li><a href="videos.html">Videos</a></li>
+								<li><a href="about.html">About</a></li>
+								<li data-toggle="modal" data-target="#sign-upModal"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+								<li data-toggle="modal" data-target="#log-inModal"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</nav> <!-- navi end -->
+			
+			<h1>2Kmmrblog</h1>
+			<h3>A just for fun blog for cancer dota players</h3>
+		
+		</div> 
+	
+	</header> <!-- header -->
+
+	<div id="sign-upModal" class="modal fade" role="dialog"> <!-- sign-upModal start -->
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button"class="close" data-dismiss="modal">&times;</button>
+						<h2 class="modal-title">Sign Up</h2>
+					</div> <!-- ./modal-header -->
+
+					<div class="modal-body">
+
+       					<form action="" class="form-horizontal">
+
+       						<div class="form-group">
+       							<label for="username" class="col-sm-3">Username</label>
+       							<div class="col-sm-9">
+       								<input type="text" class="form-control" id="username" placeholder="Enter user name" name=username>
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+       							<label for="email" class="col-sm-3">Email</label>
+       							<div class="col-sm-9">
+       								<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+       							<label for="pwd" class="col-sm-3">Password</label>
+       							<div class="col-sm-9">
+       								<input type="password" class="form-control" id="password" placeholder="Enter password"name="password">
+       							</div>
+       						</div>
+
+       						<div class="form-group">
+       							<label for="pwd" class="col-sm-3" id="labelConfirmpass">Confirm password</label>
+       							<div class="col-sm-9">
+       								<input type="password" class="form-control" id="confirm-password" placeholder="Confirm password" name="confirm-password">
+       							</div>
+       						</div>
+
+       						<div class="form-group"> 
+    							<div class="col-sm-offset-9 col-sm-3">
+      								<button type="submit" class="btn btn-info">Sign-up</button>
+   								 </div>
+ 							</div>
+       						
+       					</form>
+      				</div>
+				</div>	
+			</div>
+	</div> <!-- sign-up modal end-->
+
+	<div id="log-inModal" class="modal fade" role="dialog"> <!-- log-inModal start-->
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button"class="close" data-dismiss="modal">&times;</button>
+					<h2 class="modal-title">Log-in</h2>
+				</div> <!-- ./modal-header -->
+
+				<div class="modal-body">
+
+   					<form action="" class="form-horizontal">
+
+   						<div class="form-group">
+   							<label for="username" class="col-sm-3">Username</label>
+   							<div class="col-sm-9">
+   								<input type="text" class="form-control" id="username" placeholder="Enter user name" name=username>
+   							</div>
+   						</div>
+
+   						<div class="form-group">
+   							<label for="pwd" class="col-sm-3">Password</label>
+   							<div class="col-sm-9">
+   								<input type="password" class="form-control" id="password" placeholder="Enter password"name="password">
+   							</div>
+   						</div>
+
+   						<div class="form-group"> 
+							<div class="col-sm-offset-9 col-sm-3">
+  								<button type="submit" class="btn btn-success">Log-in</button>
+								 </div>
+						</div>
+						<hr>
+						<div class="form-group text-center">
+							<h3>Not a member yet?</h3>
+							<div class="col-sm-offset-4 col-sm-4">
+  								<button type="submit" data-dismiss="modal" data-toggle="modal" data-target="#sign-upModal" class="btn btn-info">Sign-up</button>
+							</div>
+						</div>   						
+   					</form>
+  				</div>
+			</div>	
+		</div>
+	</div> <!-- log-inModal end-->
+
+	<main class="container text-justify">
+		
+		<div class="col-sm-12 col-md-7"> <!-- homepage featured articles start -->
+		
+			<div class="well">
+				<h3><a href="">Confession of a cancer player</a></h3>
+				<p class=small><span class="fa fa-user"></span> Peenoise101 <span class="fa fa-clock-o"></span> Sept 11, 2017</p>
+				<div>
+				<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+				</div>
+				<a href="">Read more>>></a>
+			</div>		
+		
+			<div class="well">
+				<h3><a href="articles-mmr-just-a-number.html">2k logic: MMR is just a number</a></h3>
+				<p class=small><span class="fa fa-user"></span> Peenoise101 <span class="fa fa-clock-o"></span> Sept 5, 2017</p>
+				<div>
+				<p class="lead">Lorem ipsum was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Nullam a efficitur odio, ac maximus lorem. Nullam aliquam fermentum lectus ut sagittis. Sed pulvinar sed ligula gravida condimentum. </p>
+				</div>
+				<a href="articles-mmr-just-a-number.html">Read more>>></a>
+			</div>	
+	
+			<div class="well">
+				<h3><a href="#">From 3k to 2k real quick</a></h3>
+				<p class=small><span class="fa fa-user"></span> Peenoise101 <span class="fa fa-clock-o"></span> Sept 1, 2017</p>
+				<div>
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin sem sapien, eu semper ex facilisis aliquet. Nunc ornare blandit velit sed blandit. In ante ex, aliquam sed nunc ac, pulvinar venenatis sapien. Aenean ultrices sed nulla in vestibulum. Vivamus eget dapibus massa, vel accumsan odio. Nam ultrices, nisi in tempor condimentum, massa nunc finibus justo, quis molestie nisi ante a mi. Praesent eget orci ex. Ut eget dolor ut eros luctus auctor eu ut lorem </p>
+				</div>
+				<a href="">Read more>>></a>
+			</div>		
+			
+			<div class="text-center">
+				<ul class="pager">
+					<li><a href="articles.html">See all</a></li>
+				</ul>			
+			</div>
+	
+		</div> <!-- homepage featured article end -->
+
+		<div class="col-sm-12 col-md-1">
+		</div> <!-- extra space -->
+
+		<div class="col-sm-12 col-md-4"> <!-- side content -->
+
+			<div class="well text-center"> <!-- quote of the day start -->
+				<h3>Quote of the day</h3>
+				<hr>
+
+				<blockquote class="lead">
+  					<p>Keep your friends close and your antidotes closer <span class="fa fa-quote-right"></span></p>
+  					<small><cite>Venomancer</cite></small>
+				</blockquote>
+			</div> <!-- quote of the day end -->
+
+			<div class="well text-center"> <!-- featured video start -->
+				<h3>Must Watch <span class="fa fa-play-circle-o fa-lg"></span></h3>
+				<hr>
+				
+						<a href=""><div class="responsive-video">
+							<iframe width="80" height="80"src="https://www.youtube.com//embed/WCIROiQvPAI" frameborder="0" allowfullscreen>
+							</iframe>
+						</div>	</a>
+				
+				<a href="videos.html"><h3>Mid or Feed?</h3></a>
+			</div> <!-- featured video end -->
+
+			<div class="well text-center"> <!-- author's info start -->
+				<h2>Author</h2>
+				<div>
+					<figure class="figure text-center">
+						<img src="./img/author.jpg" class="figure-img img-fluid img-circle" alt="author" width="50%" height="50%">
+						<figcaption class="figure-caption"><h2>Edwn Dolor</h2></figcaption>
+						<figcaption class="figure-caption"><h4>Mid-laner - Support</h4></figcaption>
+					</figure>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="82%" aria-valuemin="0" aria-valuemax="101" style="width:82%" ><b>Cancer Lvl: 82%</b></div>
+				</div>
+
+				<div>
+					<ul class="list-inline">
+							<li><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitch fa-lg"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+					</ul>
+				</div> 
+			</div>	<!-- author's info end-->
+
+		</div> <!-- side content end -->
+
+	</main>
+
+<footer class="container-fluid text-center">
+	<h4>Copyright &copy; 2017 | Edwn Dolor</h4>
+	<div>
+		<ul class="list-inline">
+			<li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitch fa-2x"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+		</ul>
+	</div>
+</footer> <!-- footer -->
+
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left" data-original-title="Click to return on the top page" style=" display: inline;"><span class="fa fa-chevron-up"></span></a>
+
+<!-- back-to-top script -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top").style.display = "block";
+    } else {
+        document.getElementById("back-to-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script> <!-- back-to-top script -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
