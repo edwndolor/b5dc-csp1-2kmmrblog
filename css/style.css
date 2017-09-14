@@ -10,7 +10,7 @@ html {
 body {
     background-color: rgba(255, 255, 255, 0.1);
     margin: 0 auto;
-    padding: 1em;
+    font-family: Raleway;
 }
 
 body p, h5, em{
@@ -48,6 +48,10 @@ background-color: rgba(40,40,40,.97);
 .jumbotron  h1,h2,a{
   color: #9f4746;
   font-weight: bolder;
+}
+
+.jumbotron h3{
+  color:white;
 }
 
 
@@ -93,12 +97,14 @@ footer{
   font-size: 19px;
 }
 
-#figure
-{
+#figure{
   margin-top:45px;
-  bottom-margin: 20px;
+  bottom-margin: 10px;
 }
 
+.figure{
+margin-top:45px;
+}
 
 #back-to-top {
     display: none; /* Hidden by default */
