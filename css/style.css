@@ -28,7 +28,7 @@ font-size: 14px;
   margin-bottom: 15px;
 }
 
-body h2,h3
+body h2,h3,a
 {
 	color: #9f4746;
   font-weight: bolder;
@@ -42,13 +42,18 @@ body h4{
 padding-top: 15px;
 padding-bottom: 50px;
 margin-bottom: 50px;
-background-color: rgba(40,40,40,.97);
+background-color: rgba(40,40,40,.4);
 }
 
-.jumbotron  h1,h2,a{
+.jumbotron  h1,h2{
   color: #9f4746;
   font-weight: bolder;
 }
+
+.jumbotron a {
+	color:white;
+}
+
 
 .jumbotron h3{
   color:white;
@@ -133,7 +138,7 @@ header .jumbotron h1{
 
 .well
 {
-  background-color: #282828;
+  background-color: rgba(40,40,40,.85);
     border:none;
 }
 
